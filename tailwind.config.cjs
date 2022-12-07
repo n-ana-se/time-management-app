@@ -4,6 +4,6 @@ module.exports = {
 	theme: {
 		extend: {}
 	},
-	plugins: [],
+	plugins: [require('tailwindcss')],
 	darkMode: false // or 'media' or 'class'
 };
